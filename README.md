@@ -8,6 +8,8 @@ This application is built for manager for managing company's employees. Manager 
 
 Source code can be downloaded from https://github.com/SimonMSelvadurai/CMS-Employee-Tracker
 
+Walkthrogh video :   https://youtu.be/Fy7gU1Q-84Y
+
 # Motivation :
 
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems.
