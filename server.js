@@ -7,7 +7,6 @@ const view = require("./lib/ActionView");
 const del = require("./lib/ActionDelete");
 const create = require("./lib/ActionCreate");
 const update = require("./lib/ActionUpdate");
-//const validate = require("./javascript/validate");
 
 // Database Connect and Starter Title
 connection.connect((error) => {
@@ -50,14 +49,14 @@ function promptUser() {
         "View All Roles",
         "View All Departments",
         "View All Employees By Department",
-        // "View Department Budgets",
+
         "Update Employee Role",
         "Update Employee Manager",
-        //add action
+
         "Add Employee",
         "Add Role",
         "Add Department",
-        // delete action
+
         "Remove Employee",
         "Remove Role",
         "Remove Department",
@@ -72,12 +71,9 @@ function selectAction(answers) {
   console.log(choices);
 
   if (choices === "View All Employees") {
-    //viewAllEmployees();
-    console.log("<------------- View All Employees ------------ > ");
     return view.viewAllEmployees(askUser);
-    // view.employeeSearch();
   }
-  //<etc... you will need to work on your functions below>
+
   if (choices === "View All Departments") {
     view.viewAllDepartments(askUser);
   }
